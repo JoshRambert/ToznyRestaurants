@@ -15,8 +15,8 @@ class RestaurantCells: UITableViewCell {
         super.awakeFromNib()
     }
     
+    //Smaller functions for cell classes -- atleast thats the idea
     func getRestaurantInfo(name: String, rating: String){
-        
         restaurantTitle.text = name
         
         if rating == "0"{

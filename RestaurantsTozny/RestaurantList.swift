@@ -31,13 +31,14 @@ class RestaurantList: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RestaurantCells", for: indexPath) as! RestaurantCells
         
+        //A little clutterd but just wanted to get a finished example out
         cell.getRestaurantInfo(name: self.restaurantNames[indexPath.row], rating: String(self.restaurantRating[indexPath.row]))
         
         return cell
     }
     
     
-    //MARK Api
+    //MARK Api - Pull
     func apiRequest(){
         
         var headers: HTTPHeaders = HTTPHeaders()
