@@ -1,0 +1,6 @@
+framework module Pods_RestaurantsTozny {
+  umbrella header "Pods-RestaurantsTozny-umbrella.h"
+
+  export *
+  module * { export * }
+}

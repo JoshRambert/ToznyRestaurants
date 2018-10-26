@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7CABB0F965C03AD8BA233B /* Pods_RestaurantsToznyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6F1BD56F0DCA08EA0610A6 /* Pods_RestaurantsToznyTests.framework */; };
+		830EDB7521837F23001DC099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EDB7421837F23001DC099 /* AppDelegate.swift */; };
+		830EDB7721837F23001DC099 /* RestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EDB7621837F23001DC099 /* RestaurantList.swift */; };
+		830EDB7A21837F23001DC099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830EDB7821837F23001DC099 /* Main.storyboard */; };
+		830EDB7C21837F25001DC099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830EDB7B21837F25001DC099 /* Assets.xcassets */; };
+		830EDB7F21837F25001DC099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830EDB7D21837F25001DC099 /* LaunchScreen.storyboard */; };
+		830EDB8A21837F25001DC099 /* RestaurantsToznyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EDB8921837F25001DC099 /* RestaurantsToznyTests.swift */; };
+		830EDB9521837F25001DC099 /* RestaurantsToznyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EDB9421837F25001DC099 /* RestaurantsToznyUITests.swift */; };
+		830EDBA421837FB1001DC099 /* RestaurantCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830EDBA321837FB1001DC099 /* RestaurantCells.swift */; };
+		A4795CA8E7A6CA253AA38E69 /* Pods_RestaurantsToznyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD69BB8FA908E42C0997D82 /* Pods_RestaurantsToznyUITests.framework */; };
+		CE96B8D7F33246A7F7C48F7D /* Pods_RestaurantsTozny.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5E8DB7019BDDE77B63FF608 /* Pods_RestaurantsTozny.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		830EDB8621837F25001DC099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830EDB6921837F23001DC099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830EDB7021837F23001DC099;
+			remoteInfo = RestaurantsTozny;
+		};
+		830EDB9121837F25001DC099 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 830EDB6921837F23001DC099 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 830EDB7021837F23001DC099;
+			remoteInfo = RestaurantsTozny;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14360A7BFF696A1911D14960 /* Pods-RestaurantsToznyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsToznyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsToznyUITests/Pods-RestaurantsToznyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		23D96F72A810C2207877C9BF /* Pods-RestaurantsToznyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsToznyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsToznyTests/Pods-RestaurantsToznyTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C657C15CF1CF4C683FBBEBF /* Pods-RestaurantsToznyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsToznyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsToznyUITests/Pods-RestaurantsToznyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E6F1BD56F0DCA08EA0610A6 /* Pods_RestaurantsToznyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantsToznyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB48F44682583C936C798E4 /* Pods-RestaurantsTozny.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsTozny.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsTozny/Pods-RestaurantsTozny.debug.xcconfig"; sourceTree = "<group>"; };
+		830EDB7121837F23001DC099 /* RestaurantsTozny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantsTozny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830EDB7421837F23001DC099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		830EDB7621837F23001DC099 /* RestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantList.swift; sourceTree = "<group>"; };
+		830EDB7921837F23001DC099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		830EDB7B21837F25001DC099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		830EDB7E21837F25001DC099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		830EDB8021837F25001DC099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830EDB8521837F25001DC099 /* RestaurantsToznyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantsToznyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830EDB8921837F25001DC099 /* RestaurantsToznyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsToznyTests.swift; sourceTree = "<group>"; };
+		830EDB8B21837F25001DC099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830EDB9021837F25001DC099 /* RestaurantsToznyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantsToznyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		830EDB9421837F25001DC099 /* RestaurantsToznyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsToznyUITests.swift; sourceTree = "<group>"; };
+		830EDB9621837F25001DC099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830EDBA321837FB1001DC099 /* RestaurantCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCells.swift; sourceTree = "<group>"; };
+		9AD69BB8FA908E42C0997D82 /* Pods_RestaurantsToznyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantsToznyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22FF3FC3DB322EF2A5244AB /* Pods-RestaurantsTozny.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsTozny.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsTozny/Pods-RestaurantsTozny.release.xcconfig"; sourceTree = "<group>"; };
+		B2BC8682034EA8F5795AFD6F /* Pods-RestaurantsToznyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsToznyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsToznyTests/Pods-RestaurantsToznyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5E8DB7019BDDE77B63FF608 /* Pods_RestaurantsTozny.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantsTozny.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		830EDB6E21837F23001DC099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE96B8D7F33246A7F7C48F7D /* Pods_RestaurantsTozny.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830EDB8221837F25001DC099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7CABB0F965C03AD8BA233B /* Pods_RestaurantsToznyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830EDB8D21837F25001DC099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4795CA8E7A6CA253AA38E69 /* Pods_RestaurantsToznyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		830EDB6821837F23001DC099 = {
+			isa = PBXGroup;
+			children = (
+				830EDB7321837F23001DC099 /* RestaurantsTozny */,
+				830EDB8821837F25001DC099 /* RestaurantsToznyTests */,
+				830EDB9321837F25001DC099 /* RestaurantsToznyUITests */,
+				830EDB7221837F23001DC099 /* Products */,
+				E7E16B36F29136C43FCB8D00 /* Pods */,
+				FAD6EA4E6F7688F9094E4103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		830EDB7221837F23001DC099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				830EDB7121837F23001DC099 /* RestaurantsTozny.app */,
+				830EDB8521837F25001DC099 /* RestaurantsToznyTests.xctest */,
+				830EDB9021837F25001DC099 /* RestaurantsToznyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		830EDB7321837F23001DC099 /* RestaurantsTozny */ = {
+			isa = PBXGroup;
+			children = (
+				830EDBA221837FA0001DC099 /* Cells */,
+				830EDB7421837F23001DC099 /* AppDelegate.swift */,
+				830EDB7621837F23001DC099 /* RestaurantList.swift */,
+				830EDB7821837F23001DC099 /* Main.storyboard */,
+				830EDB7B21837F25001DC099 /* Assets.xcassets */,
+				830EDB7D21837F25001DC099 /* LaunchScreen.storyboard */,
+				830EDB8021837F25001DC099 /* Info.plist */,
+			);
+			path = RestaurantsTozny;
+			sourceTree = "<group>";
+		};
+		830EDB8821837F25001DC099 /* RestaurantsToznyTests */ = {
+			isa = PBXGroup;
+			children = (
+				830EDB8921837F25001DC099 /* RestaurantsToznyTests.swift */,
+				830EDB8B21837F25001DC099 /* Info.plist */,
+			);
+			path = RestaurantsToznyTests;
+			sourceTree = "<group>";
+		};
+		830EDB9321837F25001DC099 /* RestaurantsToznyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				830EDB9421837F25001DC099 /* RestaurantsToznyUITests.swift */,
+				830EDB9621837F25001DC099 /* Info.plist */,
+			);
+			path = RestaurantsToznyUITests;
+			sourceTree = "<group>";
+		};
+		830EDBA221837FA0001DC099 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				830EDBA321837FB1001DC099 /* RestaurantCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E7E16B36F29136C43FCB8D00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BB48F44682583C936C798E4 /* Pods-RestaurantsTozny.debug.xcconfig */,
+				B22FF3FC3DB322EF2A5244AB /* Pods-RestaurantsTozny.release.xcconfig */,
+				B2BC8682034EA8F5795AFD6F /* Pods-RestaurantsToznyTests.debug.xcconfig */,
+				23D96F72A810C2207877C9BF /* Pods-RestaurantsToznyTests.release.xcconfig */,
+				14360A7BFF696A1911D14960 /* Pods-RestaurantsToznyUITests.debug.xcconfig */,
+				5C657C15CF1CF4C683FBBEBF /* Pods-RestaurantsToznyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAD6EA4E6F7688F9094E4103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5E8DB7019BDDE77B63FF608 /* Pods_RestaurantsTozny.framework */,
+				5E6F1BD56F0DCA08EA0610A6 /* Pods_RestaurantsToznyTests.framework */,
+				9AD69BB8FA908E42C0997D82 /* Pods_RestaurantsToznyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		830EDB7021837F23001DC099 /* RestaurantsTozny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830EDB9921837F25001DC099 /* Build configuration list for PBXNativeTarget "RestaurantsTozny" */;
+			buildPhases = (
+				6324CF76748152544ED71EA0 /* [CP] Check Pods Manifest.lock */,
+				830EDB6D21837F23001DC099 /* Sources */,
+				830EDB6E21837F23001DC099 /* Frameworks */,
+				830EDB6F21837F23001DC099 /* Resources */,
+				BA2948F53B3F016436E86E63 /* [CP] Embed Pods Frameworks */,
+				F319FF8F7ABAED66381E5102 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantsTozny;
+			productName = RestaurantsTozny;
+			productReference = 830EDB7121837F23001DC099 /* RestaurantsTozny.app */;
+			productType = "com.apple.product-type.application";
+		};
+		830EDB8421837F25001DC099 /* RestaurantsToznyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830EDB9C21837F25001DC099 /* Build configuration list for PBXNativeTarget "RestaurantsToznyTests" */;
+			buildPhases = (
+				07CA9F910E061950CB3D6691 /* [CP] Check Pods Manifest.lock */,
+				830EDB8121837F25001DC099 /* Sources */,
+				830EDB8221837F25001DC099 /* Frameworks */,
+				830EDB8321837F25001DC099 /* Resources */,
+				49517C0B788D88B324293E5F /* [CP] Embed Pods Frameworks */,
+				A3D7A3B77A09E34B0093696F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830EDB8721837F25001DC099 /* PBXTargetDependency */,
+			);
+			name = RestaurantsToznyTests;
+			productName = RestaurantsToznyTests;
+			productReference = 830EDB8521837F25001DC099 /* RestaurantsToznyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		830EDB8F21837F25001DC099 /* RestaurantsToznyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 830EDB9F21837F25001DC099 /* Build configuration list for PBXNativeTarget "RestaurantsToznyUITests" */;
+			buildPhases = (
+				425FA1A69DF272EB750A2B06 /* [CP] Check Pods Manifest.lock */,
+				830EDB8C21837F25001DC099 /* Sources */,
+				830EDB8D21837F25001DC099 /* Frameworks */,
+				830EDB8E21837F25001DC099 /* Resources */,
+				90BCC37368473F09A0E9D058 /* [CP] Embed Pods Frameworks */,
+				5DBE80281E03D1AE0B1C7221 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				830EDB9221837F25001DC099 /* PBXTargetDependency */,
+			);
+			name = RestaurantsToznyUITests;
+			productName = RestaurantsToznyUITests;
+			productReference = 830EDB9021837F25001DC099 /* RestaurantsToznyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		830EDB6921837F23001DC099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Joshua Rambert";
+				TargetAttributes = {
+					830EDB7021837F23001DC099 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					830EDB8421837F25001DC099 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 830EDB7021837F23001DC099;
+					};
+					830EDB8F21837F25001DC099 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 830EDB7021837F23001DC099;
+					};
+				};
+			};
+			buildConfigurationList = 830EDB6C21837F23001DC099 /* Build configuration list for PBXProject "RestaurantsTozny" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 830EDB6821837F23001DC099;
+			productRefGroup = 830EDB7221837F23001DC099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				830EDB7021837F23001DC099 /* RestaurantsTozny */,
+				830EDB8421837F25001DC099 /* RestaurantsToznyTests */,
+				830EDB8F21837F25001DC099 /* RestaurantsToznyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		830EDB6F21837F23001DC099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830EDB7F21837F25001DC099 /* LaunchScreen.storyboard in Resources */,
+				830EDB7C21837F25001DC099 /* Assets.xcassets in Resources */,
+				830EDB7A21837F23001DC099 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830EDB8321837F25001DC099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830EDB8E21837F25001DC099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CA9F910E061950CB3D6691 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantsToznyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		425FA1A69DF272EB750A2B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantsToznyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49517C0B788D88B324293E5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsToznyTests/Pods-RestaurantsToznyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBE80281E03D1AE0B1C7221 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsToznyUITests/Pods-RestaurantsToznyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6324CF76748152544ED71EA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantsTozny-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90BCC37368473F09A0E9D058 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsToznyUITests/Pods-RestaurantsToznyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D7A3B77A09E34B0093696F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsToznyTests/Pods-RestaurantsToznyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2948F53B3F016436E86E63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsTozny/Pods-RestaurantsTozny-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsTozny/Pods-RestaurantsTozny-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F319FF8F7ABAED66381E5102 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantsTozny/Pods-RestaurantsTozny-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		830EDB6D21837F23001DC099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830EDBA421837FB1001DC099 /* RestaurantCells.swift in Sources */,
+				830EDB7721837F23001DC099 /* RestaurantList.swift in Sources */,
+				830EDB7521837F23001DC099 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830EDB8121837F25001DC099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830EDB8A21837F25001DC099 /* RestaurantsToznyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		830EDB8C21837F25001DC099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830EDB9521837F25001DC099 /* RestaurantsToznyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		830EDB8721837F25001DC099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830EDB7021837F23001DC099 /* RestaurantsTozny */;
+			targetProxy = 830EDB8621837F25001DC099 /* PBXContainerItemProxy */;
+		};
+		830EDB9221837F25001DC099 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 830EDB7021837F23001DC099 /* RestaurantsTozny */;
+			targetProxy = 830EDB9121837F25001DC099 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		830EDB7821837F23001DC099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830EDB7921837F23001DC099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		830EDB7D21837F25001DC099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				830EDB7E21837F25001DC099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		830EDB9721837F25001DC099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		830EDB9821837F25001DC099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830EDB9A21837F25001DC099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB48F44682583C936C798E4 /* Pods-RestaurantsTozny.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN9Z6QQB56;
+				INFOPLIST_FILE = RestaurantsTozny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joshRambert.RestaurantsTozny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		830EDB9B21837F25001DC099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22FF3FC3DB322EF2A5244AB /* Pods-RestaurantsTozny.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN9Z6QQB56;
+				INFOPLIST_FILE = RestaurantsTozny/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joshRambert.RestaurantsTozny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		830EDB9D21837F25001DC099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BC8682034EA8F5795AFD6F /* Pods-RestaurantsToznyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN9Z6QQB56;
+				INFOPLIST_FILE = RestaurantsToznyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joshRambert.RestaurantsToznyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantsTozny.app/RestaurantsTozny";
+			};
+			name = Debug;
+		};
+		830EDB9E21837F25001DC099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D96F72A810C2207877C9BF /* Pods-RestaurantsToznyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN9Z6QQB56;
+				INFOPLIST_FILE = RestaurantsToznyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joshRambert.RestaurantsToznyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantsTozny.app/RestaurantsTozny";
+			};
+			name = Release;
+		};
+		830EDBA021837F25001DC099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14360A7BFF696A1911D14960 /* Pods-RestaurantsToznyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN9Z6QQB56;
+				INFOPLIST_FILE = RestaurantsToznyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joshRambert.RestaurantsToznyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantsTozny;
+			};
+			name = Debug;
+		};
+		830EDBA121837F25001DC099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C657C15CF1CF4C683FBBEBF /* Pods-RestaurantsToznyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PN9Z6QQB56;
+				INFOPLIST_FILE = RestaurantsToznyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joshRambert.RestaurantsToznyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestaurantsTozny;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		830EDB6C21837F23001DC099 /* Build configuration list for PBXProject "RestaurantsTozny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830EDB9721837F25001DC099 /* Debug */,
+				830EDB9821837F25001DC099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830EDB9921837F25001DC099 /* Build configuration list for PBXNativeTarget "RestaurantsTozny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830EDB9A21837F25001DC099 /* Debug */,
+				830EDB9B21837F25001DC099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830EDB9C21837F25001DC099 /* Build configuration list for PBXNativeTarget "RestaurantsToznyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830EDB9D21837F25001DC099 /* Debug */,
+				830EDB9E21837F25001DC099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		830EDB9F21837F25001DC099 /* Build configuration list for PBXNativeTarget "RestaurantsToznyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830EDBA021837F25001DC099 /* Debug */,
+				830EDBA121837F25001DC099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 830EDB6921837F23001DC099 /* Project object */;
+}
